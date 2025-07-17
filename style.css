@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(gold,black); */
+    
+}
+body{
+    height: 100%;
+    width: 100%;
+    background:#ffd500;
+}
+
+.brand{
+    margin: 60px 40px;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    text-align: start;
+}
+
+.title{
+width: 100%;
+margin: 0;
+justify-content: space-around;
+display: flex;
+}
+
+.data{
+    margin: 50px 100px ;
+    height: 20px;
+    margin-top: 150px;
+}
+
+.line{
+    font-size: 60px;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+
+.line1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.buy_now{
+    margin: 40px 15px;
+    font-size: 15px;
+    padding: 12px 40px;
+    border: none;
+    color:white;
+    border-radius: 30px;
+    background-color:black;
+
+}
+
+.buy_now:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.shop_all{
+    margin: 40px 15px;
+    font-size: 15px;
+    padding: 12px 40px;
+    border: none;
+    color:white;
+    border-radius: 30px;
+    background-color:black;
+}
+
+.shop_all:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.head_img{
+    width: 35%;
+}
+
+.head_img img{
+    width: 100%;
+    margin-top: 0%;
+    margin-right: 800px;
+    align-items: center;
+    float: left;
+}
+
+.about{
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-card{
+    width: 30%;
+    height: 500px;
+    border-bottom-right-radius: 15%;
+    margin-bottom: 40px;
+    background-color: rgb(219, 218, 218);
+}
+
+.power-img img{
+    width: 100%;
+}
+
+.des{
+    margin: 100px;
+    /* padding-top: 100px; */
+    /* padding-bottom: 150px; */
+    
+}
+
+span h2{
+    /* margin-top: 150px; */
+    margin: 30px 10px;
+    text-align: start;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+.des p{
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: start;
+    gap: 25px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.equip{
+    margin: 40px 30px ;
+    padding: 20px 20px ;
+    width: 200px;
+    height: 420px;
+    justify-content:space-between;
+    border-radius: solid;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    background-color: rgb(227, 231, 242);
+}
+
+/* .equip:hover{
+    transition: 1.5s;
+} */
+
+.category-text{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.phones img{
+    border-top-right-radius: 35px;
+    width: 100%;
+}
+
+.laptops img{
+    border-top-right-radius: 35px;
+    width: 100%;
+}
+
+.items img{
+    border-top-right-radius: 35px;
+    width: 100%;
+}
+
+.phones h3{
+    text-align: center;
+    line-height: 40px;
+}
+
+.phones p{
+    text-align: center;
+}
+
+.laptops h3{
+    text-align: center;
+    line-height: 40px;
+}
+
+.laptops p{
+    text-align: center;
+}
+
+.items h3{
+    text-align: center;
+    line-height: 40px;
+}
+
+.items p{
+    text-align: center;
+}
+
+.shopBtn{
+    margin: 45%;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 15px;
+    padding: 12px 40px;
+    border: none;
+    /* text-align: center;
+    justify-content: center; */
+    color:white;
+    border-radius: 30px;
+    background-color:black; 
+}
+
+.shopBtn:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.description{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-phone img{
+    margin: 10px 5px ;
+    /* padding: 20px 20px ; */
+    width: 350px;
+    height: 450px;
+    border-radius: solid;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    background-color: rgb(227, 231, 242);
+}
+
+.details h3{
+    font-size: 40px;
+}
+
+h5{
+    margin-top: 80px;
+    font-size: 16px;
+    font-weight: 800px;
+    margin-bottom: 12px;
+}
+.address1{
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.address2{
+    line-height: 20px; 
+    letter-spacing: 1px;
+}
+
+.Connect-with{
+    margin-top: 150px;
+    /* margin-bottom: 100px; */
+    background-color: black;
+    color: white;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.connect{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.details{
+    height: 200px;
+    line-height: 20px;
+    margin-top: 70px; 
+    margin-left: 30px;
+}
